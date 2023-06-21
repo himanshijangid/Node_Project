@@ -65,6 +65,7 @@ app.use(authRoutes);
 
 app.use(errorController.get404);
 
+mongoose.set("strictQuery", false);
 
 mongoose
   .connect(process.env.MONGODB_CONNECT_URI)
