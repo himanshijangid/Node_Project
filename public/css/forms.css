@@ -30,10 +30,9 @@ main{
 .form-control input.invalid{
     border-color: red ;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     main{
-        height: 90%;
-        width : 90%
+      height: 95%;
+      width: 95%;
     }
-    
-}
+  }
