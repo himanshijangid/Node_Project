@@ -12,3 +12,10 @@ img{
     height:240px;
     width:280px;
 }
+@media (max-width: 768px) {
+    main{
+        height: 90%;
+        width : 90%
+    }
+    
+}

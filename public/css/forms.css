@@ -27,3 +27,13 @@ main{
 .form-control textarea{
     outline-color:rgb(253,0,118);
 }
+.form-control input.invalid{
+    border-color: red ;
+}
+@media (max-width: 768px) {
+    main{
+        height: 90%;
+        width : 90%
+    }
+    
+}

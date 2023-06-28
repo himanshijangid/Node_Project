@@ -103,7 +103,7 @@ form {
 .mobile-nav__item a {
   text-decoration: none;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.5rem 2rem;
 }
 
@@ -223,6 +223,21 @@ form {
 .btn.primary:active {
   background: rgb(5, 82, 5);
   color: white;
+}
+.user-message{
+  margin: 10px auto;
+  width: 90%;
+  border: 1px solid #4771fa;
+  padding: 1rem;
+  border-radius: 3px;
+  background: #b9c9ff;
+  text-align: center;
+}
+
+.user-message-error{
+  border-color: red;
+  background: rgb(255,176,176);
+  color: red;
 }
 
 @media (min-width: 768px) {
