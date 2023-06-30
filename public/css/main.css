@@ -58,14 +58,22 @@ form {
   padding: 0;
 }
 
-.main-header__item a {
+.main-header__item a,
+.main-header__item button {
+  font: inherit;
+  background: transparent;
+  border: none;
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
+
 
 .main-header__item a:hover,
 .main-header__item a:active,
-.main-header__item a.active {
+.main-header__item a.active,
+.main-header__item button:hover,
+.main-header__item button:active {
   color: black;
 }
 
@@ -100,16 +108,23 @@ form {
   padding: 0;
 }
 
-.mobile-nav__item a {
+.mobile-nav__item a,
+.mobile-nav__item button {
+  font: inherit;
   text-decoration: none;
   color: black;
   font-size: 1rem;
   padding: 0.5rem 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .mobile-nav__item a:active,
 .mobile-nav__item a:hover,
-.mobile-nav__item a.active {
+.mobile-nav__item a.active,
+.mobile-nav__item button:hover,
+.mobile-nav__item button:active {
   background: rgb(253,0,118);
   color: white;
   border-radius: 3px;
@@ -215,15 +230,7 @@ form {
   background: red;
   color: white;
 }
-.btn.primary{
-  color :rgb(5, 82, 5);
-  border-color: rgb(5, 82, 5);
-}
-.btn.primary:hover,
-.btn.primary:active {
-  background: rgb(5, 82, 5);
-  color: white;
-}
+
 .user-message{
   margin: 10px auto;
   width: 90%;
@@ -247,5 +254,8 @@ form {
 
   #side-menu-toggle {
     display: none;
+  }
+  .user-message {
+    width: 30rem;
   }
 }
