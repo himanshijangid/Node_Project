@@ -166,10 +166,12 @@ form {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
+
 }
 
 .card {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin-bottom: 2rem;
 }
 
 .card__header,
@@ -245,6 +247,27 @@ form {
   border-color: red;
   background: rgb(255,176,176);
   color: red;
+}
+
+.pagination{
+  text-align: center;
+ margin-top: 3rem;
+}
+
+.pagination a{
+  text-decoration: none;
+  color:rgba(255, 0, 119, 0.804);
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 0, 119, 0.804);
+margin: 0 1rem;
+
+}
+
+.pagination a:hover,
+.pagination a:active,
+.pagination a.active{
+  background: rgba(255, 0, 119, 0.804);
+  color: white;
 }
 
 @media (min-width: 768px) {
